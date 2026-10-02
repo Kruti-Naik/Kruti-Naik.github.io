@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Kruti Naik | Finance Student</title>
+    <title>Kruti Naik | Finance & Business</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,17 +13,19 @@
 
 <body>
 
-    <!-- NAVIGATION -->
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
 
-    <header>
+    <header class="navbar">
 
-        <nav>
+        <div class="nav-container">
 
-            <div class="logo">
+            <a href="#about" class="logo">
                 KRUTI NAIK
-            </div>
+            </a>
 
-            <div class="nav-links">
+            <nav class="nav-links">
 
                 <a href="#about">About</a>
 
@@ -31,9 +33,11 @@
 
                 <a href="#projects">Projects</a>
 
-            </div>
+                <a href="#resume">Resume</a>
 
-        </nav>
+            </nav>
+
+        </div>
 
     </header>
 
@@ -42,85 +46,71 @@
     <main>
 
 
-        <!-- PERSONAL STATEMENT -->
+        <!-- =========================
+             HERO / PERSONAL STATEMENT
+        ========================== -->
 
         <section id="about" class="hero">
 
-            <p class="eyebrow">
-                FINANCE • ACCOUNTING • BUSINESS ANALYTICS
-            </p>
+            <div class="hero-content">
 
 
-            <h1>
-                Building a career at the intersection of finance, business, and technology.
-            </h1>
+                <div class="hero-text">
+
+                    <div class="academic-mark">
+
+                        <img src="RBS.JPEG"
+                             alt="Rutgers Business School">
+
+                        <span>
+                            RUTGERS BUSINESS SCHOOL
+                        </span>
+
+                    </div>
 
 
-            <p class="statement">
-                I’m a Finance student at Rutgers University developing expertise in financial analysis, accounting, and business strategy with an interest in the intersection of finance and the luxury industry.
-            </p>
-
-        </section>
-
-
-
-        <!-- SKILLS -->
-
-        <section id="skills">
-
-            <p class="section-label">
-                02 — SKILLS
-            </p>
-
-
-            <h2>
-                What I bring to the table.
-            </h2>
-
-
-            <div class="skills-container">
-
-
-                <div class="skill-card">
-
-                    <h3>
-                        Finance & Accounting
-                    </h3>
-
-                    <p>
-                        Financial Analysis · Financial Statements ·
-                        Accounting Fundamentals · Internal Controls
+                    <p class="eyebrow">
+                        FINANCE • ACCOUNTING • BUSINESS ANALYTICS
                     </p>
+
+
+                    <h1>
+                        Building a career at the intersection of finance, business, and technology.
+                    </h1>
+
+
+                    <p class="statement">
+                        I’m a Finance student at Rutgers University developing expertise in financial analysis, accounting, and business strategy with an interest in the intersection of finance and the luxury industry.
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <a href="Resume%20for%20RBS%20%281%29.pdf"
+                           target="_blank"
+                           class="button primary-button">
+                            View Resume
+                        </a>
+
+                        <a href="#projects"
+                           class="button secondary-button">
+                            Explore My Work
+                        </a>
+
+                    </div>
 
                 </div>
 
 
 
-                <div class="skill-card">
+                <div class="hero-photo">
 
-                    <h3>
-                        Technical
-                    </h3>
+                    <div class="photo-frame">
 
-                    <p>
-                        Microsoft Excel · SQL · MySQL ·
-                        Database Management · Data Analysis
-                    </p>
+                        <img src="Headshot.JPEG"
+                             alt="Kruti Naik">
 
-                </div>
-
-
-
-                <div class="skill-card">
-
-                    <h3>
-                        Business
-                    </h3>
-
-                    <p>
-                        Business Strategy · Research ·
-                        Communication · Problem Solving
-                    </p>
+                    </div>
 
                 </div>
 
@@ -131,48 +121,179 @@
 
 
 
-        <!-- PROJECTS -->
+        <!-- =========================
+             SKILLS
+        ========================== -->
 
-        <section id="projects">
+        <section id="skills" class="section">
 
-            <p class="section-label">
-                03 — PROJECTS
-            </p>
+            <div class="section-heading">
+
+                <p class="section-label">
+                    02 — SKILLS
+                </p>
+
+                <h2>
+                    Skills I’m building.
+                </h2>
+
+                <p class="section-intro">
+                    A growing foundation in finance, accounting, technology, and business analysis.
+                </p>
+
+            </div>
 
 
-            <h2>
-                Selected Work & Learning.
-            </h2>
+            <div class="skills-grid">
+
+
+                <div class="skill-card">
+
+                    <span class="card-number">
+                        01
+                    </span>
+
+                    <h3>
+                        Finance & Accounting
+                    </h3>
+
+                    <ul>
+
+                        <li>Financial Analysis</li>
+
+                        <li>Financial Statements</li>
+
+                        <li>Accounting Fundamentals</li>
+
+                        <li>Internal Controls</li>
+
+                    </ul>
+
+                </div>
 
 
 
-            <div class="projects-container">
+                <div class="skill-card">
+
+                    <span class="card-number">
+                        02
+                    </span>
+
+                    <h3>
+                        Technical
+                    </h3>
+
+                    <ul>
+
+                        <li>Microsoft Excel</li>
+
+                        <li>SQL & MySQL</li>
+
+                        <li>Database Management</li>
+
+                        <li>Data Analysis</li>
+
+                    </ul>
+
+                </div>
+
+
+
+                <div class="skill-card">
+
+                    <span class="card-number">
+                        03
+                    </span>
+
+                    <h3>
+                        Business
+                    </h3>
+
+                    <ul>
+
+                        <li>Business Strategy</li>
+
+                        <li>Research</li>
+
+                        <li>Professional Communication</li>
+
+                        <li>Problem Solving</li>
+
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PROJECTS
+        ========================== -->
+
+        <section id="projects" class="section projects-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    03 — PROJECTS & LEARNING
+                </p>
+
+                <h2>
+                    Selected work.
+                </h2>
+
+                <p class="section-intro">
+                    Academic projects and professional learning experiences that reflect my interests in finance, accounting, and technology.
+                </p>
+
+            </div>
+
+
+
+            <div class="projects-list">
 
 
                 <!-- PROJECT 1 -->
 
                 <article class="project-card">
 
-                    <div class="project-number">
-                        01
+                    <div class="project-top">
+
+                        <span class="project-number">
+                            01
+                        </span>
+
+                        <span class="project-category">
+                            AUDIT & ASSURANCE
+                        </span>
+
                     </div>
 
 
-                    <h3>
-                        KPMG Audit & Assurance Career Catalyst
-                    </h3>
+                    <div class="project-content">
+
+                        <h3>
+                            KPMG Audit & Assurance Career Catalyst
+                        </h3>
 
 
-                    <p>
-                        Completed a KPMG Audit & Assurance job simulation focused on accounts receivable confirmations, audit procedures, internal controls, and professional client communication.
-                    </p>
+                        <p>
+                            Completed a KPMG Audit & Assurance job simulation focused on accounts receivable confirmations, audit procedures, internal controls, and professional client communication.
+                        </p>
 
 
-                    <a href="https://www.theforage.com/completion-certificates/dqdMvpBtAYYtbbNge/G7BF7EPuCNecw3Bb3_dqdMvpBtAYYtbbNge_6ab01859d1b8813a4b5aa201_1789932503543_completion_certificate.pdf"
-                       class="project-link"
-                       target="_blank">
-                        View Certificate →
-                    </a>
+                        <a href="https://www.theforage.com/completion-certificates/dqdMvpBtAYYtbbNge/G7BF7EPuCNecw3Bb3_dqdMvpBtAYYtbbNge_6ab01859d1b8813a4b5aa201_1789932503543_completion_certificate.pdf"
+                           target="_blank"
+                           class="project-link">
+                            View Certificate
+                            <span>↗</span>
+                        </a>
+
+                    </div>
 
                 </article>
 
@@ -182,28 +303,39 @@
 
                 <article class="project-card">
 
-                    <div class="project-number">
-                        02
+                    <div class="project-top">
+
+                        <span class="project-number">
+                            02
+                        </span>
+
+                        <span class="project-category">
+                            SQL & DATA
+                        </span>
+
                     </div>
 
 
-                    <h3>
-                        SQL Business Database Analysis
-                    </h3>
+                    <div class="project-content">
+
+                        <h3>
+                            SQL Business Database Analysis
+                        </h3>
 
 
-                    <p>
-                        Developed SQL queries using MySQL to analyze relational business data using filtering, sorting, joins, aggregate functions, and subqueries.
-                    </p>
+                        <p>
+                            Developed SQL queries using MySQL to analyze relational business data through filtering, sorting, joins, aggregate functions, and subqueries.
+                        </p>
 
 
-                    <!-- Replace the # below with your GitHub SQL file URL -->
+                        <a href="https://github.com/Kruti-Naik/Kruti-Naik.github.io/blob/main/MIS%20SQL%20HW%20Final%20%281%29.sql"
+                           target="_blank"
+                           class="project-link">
+                            View SQL Code
+                            <span>↗</span>
+                        </a>
 
-                    <a href="#"
-                       class="project-link"
-                       target="_blank">
-                        View SQL Code →
-                    </a>
+                    </div>
 
                 </article>
 
@@ -213,29 +345,80 @@
 
                 <article class="project-card">
 
-                    <div class="project-number">
-                        03
+                    <div class="project-top">
+
+                        <span class="project-number">
+                            03
+                        </span>
+
+                        <span class="project-category">
+                            DATA ANALYSIS
+                        </span>
+
                     </div>
 
 
-                    <h3>
-                        Excel Basics for Data Analysis — IBM
-                    </h3>
+                    <div class="project-content">
+
+                        <h3>
+                            Excel Basics for Data Analysis — IBM
+                        </h3>
 
 
-                    <p>
-                        Completed IBM's Excel Basics for Data Analysis course, developing foundational skills in spreadsheet organization, data analysis, and Excel functions.
-                    </p>
+                        <p>
+                            Completed IBM's Excel Basics for Data Analysis course, developing foundational skills in spreadsheet organization, data analysis, and Excel functions.
+                        </p>
 
 
-                    <a href="https://www.coursera.org/account/accomplishments/verify/Y6PY0HSW6RXF"
-                       class="project-link"
-                       target="_blank">
-                        Verify Certificate →
-                    </a>
+                        <a href="https://www.coursera.org/account/accomplishments/verify/Y6PY0HSW6RXF"
+                           target="_blank"
+                           class="project-link">
+                            Verify Certificate
+                            <span>↗</span>
+                        </a>
+
+                    </div>
 
                 </article>
 
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             RESUME
+        ========================== -->
+
+        <section id="resume" class="resume-section">
+
+            <div class="resume-content">
+
+                <div>
+
+                    <p class="section-label">
+                        04 — RESUME
+                    </p>
+
+                    <h2>
+                        Let's connect.
+                    </h2>
+
+                    <p>
+                        Learn more about my academic background, experience, skills, and professional interests.
+                    </p>
+
+                </div>
+
+
+                <a href="Resume%20for%20RBS%20%281%29.pdf"
+                   target="_blank"
+                   class="resume-button">
+                    View My Resume
+                    <span>↗</span>
+                </a>
 
             </div>
 
@@ -246,17 +429,22 @@
 
 
 
-    <!-- FOOTER -->
+    <!-- =========================
+         FOOTER
+    ========================== -->
 
     <footer>
 
-        <p>
-            © 2026 Kruti Naik
-        </p>
+        <div class="footer-name">
+            KRUTI NAIK
+        </div>
 
-        <p>
-            Rutgers University · Finance
-        </p>
+
+        <div class="footer-details">
+            <span>Rutgers University</span>
+            <span>Finance</span>
+            <span>2026</span>
+        </div>
 
     </footer>
 
@@ -265,5 +453,31 @@
 
 </html>
 
+               
 
-Then we can do the SQL upload and replace that last #.
+
+        
+
+
+
+
+
+              
+
+
+
+
+
+            
+
+                    
+
+                    
+
+
+
+               
+
+
+                
+   
